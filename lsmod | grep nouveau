@@ -1,0 +1,9 @@
+nouveau              2359296  2
+video                  53248  2 asus_wmi,nouveau
+i2c_algo_bit           16384  1 nouveau
+mxm_wmi                16384  1 nouveau
+wmi                    36864  4 asus_wmi,wmi_bmof,mxm_wmi,nouveau
+ttm                   114688  1 nouveau
+drm_kms_helper        274432  1 nouveau
+drm                   569344  5 drm_kms_helper,ttm,nouveau
+agpgart                53248  3 ttm,nouveau,drm
